@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Python с нуля",
+    "description": "Полный курс Python для начинающих. Изучите основы, ООП, работу с файлами и библиотеками.",
+    "price": 4990,
+    "category": "beginner",
+    "duration": "3 месяца",
+    "level": "Начальный",
+    "image": "img/py_course.png"
+  },
+  {
+    "id": 2,
+    "title": "JavaScript Pro",
+    "description": "Углублённый курс JavaScript: замыкания, промисы, async/await, паттерны проектирования.",
+    "price": 6990,
+    "category": "intermediate",
+    "duration": "4 месяца",
+    "level": "Средний",
+    "image": "img/js_course.png"
+  },
+  {
+    "id": 3,
+    "title": "React & Redux",
+    "description": "Создание современных SPA на React. Hooks, Redux Toolkit, React Router, работа с API.",
+    "price": 7990,
+    "category": "intermediate",
+    "duration": "3 месяца",
+    "level": "Средний",
+    "image": "img/react_course.png"
+  },
+  {
+    "id": 4,
+    "title": "Node.js Backend",
+    "description": "Серверная разработка на Node.js: Express, базы данных, аутентификация, деплой.",
+    "price": 8490,
+    "category": "advanced",
+    "duration": "5 месяцев",
+    "level": "Продвинутый",
+    "image": "img/node_course.png"
+  },
+  {
+    "id": 5,
+    "title": "HTML & CSS Старт",
+    "description": "Основы вёрстки: семантика, Flexbox, Grid, адаптивность, анимации CSS.",
+    "price": 2990,
+    "category": "beginner",
+    "duration": "1 месяц",
+    "level": "Начальный",
+    "image": "img/html_course.png"
+  },
+  {
+    "id": 6,
+    "title": "TypeScript Full",
+    "description": "Типизация в JS: generics, utility types, интеграция с React и Node.js.",
+    "price": 5990,
+    "category": "intermediate",
+    "duration": "2 месяца",
+    "level": "Средний",
+    "image": "img/ts_course.png"
+  }
+]

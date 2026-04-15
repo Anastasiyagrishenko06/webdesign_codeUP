@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeUp — Курсы программирования</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Code<span>Up</span></a>
+      <nav class="nav">
+        <a href="index.html" class="active">Главная</a>
+        <a href="courses.html">Курсы</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Научись программировать<br>с нуля до профессионала</h1>
+      <p>Практические курсы от опытных разработчиков. Начни свой путь в IT уже сегодня.</p>
+      <a href="courses.html" class="btn btn--primary">Смотреть курсы</a>
+      <a href="#features" class="btn btn--outline">Узнать больше</a>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-title">
+        <h2>Почему выбирают нас</h2>
+        <p>Всё, что нужно для эффективного обучения</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-item">
+          <img src="img/icons/target.svg" alt="">
+          <h3>Практика с первого дня</h3>
+          <p>80% времени — практика на реальных проектах, а не сухая теория.</p>
+        </div>
+        <div class="feature-item">
+          <img src="img/icons/learn.svg" alt="">
+          <h3>Опытные менторы</h3>
+          <p>Преподаватели из ведущих IT-компаний с реальным опытом разработки.</p>
+        </div>
+        <div class="feature-item">
+          <img src="img/icons/paper.svg" alt="">
+          <h3>Сертификат</h3>
+          <p>По окончании курса вы получите сертификат, подтверждающий ваши навыки.</p>
+        </div>
+        <div class="feature-item">
+          <img src="img/icons/chat.svg" alt="">
+          <h3>Поддержка 24/7</h3>
+          <p>Получайте помощь в чате и на форумах в любое удобное время.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="popular">
+    <div class="container">
+      <div class="section-title">
+        <h2>Популярные курсы</h2>
+        <p>Самые востребованные направления</p>
+      </div>
+      <div class="popular-grid">
+        <div class="card">
+          <div class="card__img"><img src="img/py_course.png" alt=""></div>
+          <div class="card__body">
+            <h3 class="card__title">Python с нуля</h3>
+            <p class="card__text">Полный курс Python для начинающих. Изучите основы, ООП и библиотеки.</p>
+            <div class="card__footer">
+              <span class="card__price">4 990 ₽</span>
+              <a href="course-detail.html?id=1" class="btn btn--primary btn--sm">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img"><img src="img/js_course.png" alt=""></div>
+          <div class="card__body">
+            <h3 class="card__title">JavaScript Pro</h3>
+            <p class="card__text">Углублённый JS: замыкания, промисы, async/await, паттерны.</p>
+            <div class="card__footer">
+              <span class="card__price">6 990 ₽</span>
+              <a href="course-detail.html?id=2" class="btn btn--primary btn--sm">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img"><img src="img/react_course.png" alt=""></div>
+          <div class="card__body">
+            <h3 class="card__title">React & Redux</h3>
+            <p class="card__text">Создание современных SPA на React. Hooks, Redux, Router.</p>
+            <div class="card__footer">
+              <span class="card__price">7 990 ₽</span>
+              <a href="course-detail.html?id=3" class="btn btn--primary btn--sm">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div class="container">
+      <div class="section-title">
+        <h2>Отзывы студентов</h2>
+        <p>Что говорят наши выпускники</p>
+      </div>
+      <div class="slider">
+        <div class="slider__track">
+          <div class="slider__slide">
+            <p class="slider__text">«Прошёл курс по Python и за 3 месяца получил оффер в стартап. Материал подан отлично, менторы всегда на связи!»</p>
+            <p class="slider__author">Алексей К.</p>
+            <p class="slider__role">Junior Python Developer</p>
+          </div>
+          <div class="slider__slide">
+            <p class="slider__text">«Лучший курс по React, который я встречала. Много практики, понятные объяснения, крутые проекты в портфолио.»</p>
+            <p class="slider__author">Мария С.</p>
+            <p class="slider__role">Frontend Developer</p>
+          </div>
+          <div class="slider__slide">
+            <p class="slider__text">«Из новичка в уверенного мидла за полгода. Курсы структурированы, поддержка комьюнити — просто огонь!»</p>
+            <p class="slider__author">Дмитрий В.</p>
+            <p class="slider__role">Fullstack Developer</p>
+          </div>
+        </div>
+        <button class="slider__btn slider__btn--prev">◀</button>
+        <button class="slider__btn slider__btn--next">▶</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Code<span style="color: var(--secondary)">Up</span></h4>
+          <p style="font-size: 0.9rem;">Онлайн-школа программирования для всех уровней подготовки.</p>
+        </div>
+        <div>
+          <h4>Навигация</h4>
+          <a href="index.html">Главная</a>
+          <a href="courses.html">Курсы</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div>
+          <h4>Контакты</h4>
+          <a href="mailto:info@codeup.ru">info@codeup.ru</a>
+          <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+          <a href="#">Telegram</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        © 2026 CodeUp. Все права защищены.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+</html>

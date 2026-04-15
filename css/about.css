@@ -1,0 +1,90 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-page {
+  padding: 60px 0;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 40px 0 60px;
+}
+
+.about-hero h1 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+}
+
+.about-hero p {
+  color: var(--gray);
+  max-width: 650px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+}
+
+.stats {
+  margin-bottom: 70px;
+}
+
+.stat-item {
+  text-align: center;
+  padding: 30px 20px;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  height: 100%;
+}
+
+.stat-item__number {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.stat-item__label {
+  color: var(--gray);
+  margin-top: 5px;
+}
+
+.team {
+  margin-bottom: 60px;
+}
+
+.team-card {
+  text-align: center;
+  background: var(--white);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 30px 20px;
+  height: 100%;
+  transition: var(--transition);
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-hover);
+}
+
+.team-card .avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 15px;
+}
+
+.team-card .avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.team-card h4 {
+  margin-bottom: 5px;
+}
+
+.team-card p {
+  color: var(--gray);
+  font-size: 0.9rem;
+}
